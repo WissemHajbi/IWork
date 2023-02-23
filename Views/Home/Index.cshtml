@@ -1,0 +1,20 @@
+﻿@model List<EmployerModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div>
+        @foreach (var emp in Model)
+        {
+            <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">@emp.Name</h5>
+    <p class="card-text">@emp.Description</p>
+    <a href="#" class="btn btn-primary">Apply</a>
+  </div>
+</div>
+        }
+    </div>
+</div>
