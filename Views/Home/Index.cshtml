@@ -1,20 +1,45 @@
-﻿@model List<EmployerModel>
-
-@{
+﻿@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="container">
-    <div>
-        @foreach (var emp in Model)
-        {
-            <div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">@emp.Name</h5>
-    <p class="card-text">@emp.Description</p>
-    <a href="#" class="btn btn-primary">Apply</a>
-  </div>
-</div>
-        }
+<div class="background-image-container white-text-container" style="background-image: url('images/img-05.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="fs-1 header">IWork Association</h1>
+                    <p class="fs-4  text">THE BEST PLACE TO FIND YOUR JOB</p>
+                </div>
+            </div>
+        </div>
     </div>
+
+<div class="container">
+    <section class="container">
+		<div class="row-items">
+			<div class="container-box">
+				<div class="container-img">
+					<img src="images/trip1.png">
+				</div>
+				<h4>Interview preparation</h4>
+				<p>150 Properties</p>
+			</div>
+			<a asp-controller="Home" asp-action="JobHunting" class="text-decoration-none text-dark">
+				<div class="container-box">
+					<div class="container-img">
+						<img src="images/trip3.png">
+					</div>
+					<h4>Job hunting</h4>
+					<p>150 Properties</p>
+				</div>
+			</a>
+			<div class="container-box">
+				<div class="container-img">
+					<img src="images/trip2.png">
+				</div>
+				<h4>Career advancement</h4>
+				<p>150 Properties</p>
+			</div>
+		</div>
+	</section>
 </div>

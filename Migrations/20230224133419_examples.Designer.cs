@@ -2,6 +2,7 @@
 using IWork.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IWork.Migrations
 {
     [DbContext(typeof(IWorkDbContext))]
-    partial class IWorkDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230224133419_examples")]
+    partial class examples
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.3");
@@ -95,10 +98,10 @@ namespace IWork.Migrations
                         new
                         {
                             Id = 4,
-                            CoverImage = "images/trip1.png",
+                            CoverImage = "images/fss-logo.png",
                             Description = "this is a dumb text description for development gangy",
                             Email = "society1@Gmail.com",
-                            Field = "Computer science",
+                            Field = "Education",
                             Image1 = "",
                             Image2 = "",
                             Name = "society number 4"
@@ -106,10 +109,10 @@ namespace IWork.Migrations
                         new
                         {
                             Id = 5,
-                            CoverImage = "images/trip1.png",
+                            CoverImage = "images/fss-logo.png",
                             Description = "this is a dumb text description for development gangy",
                             Email = "society1@Gmail.com",
-                            Field = "Computer science",
+                            Field = "Education",
                             Image1 = "",
                             Image2 = "",
                             Name = "society number 5"
@@ -117,10 +120,10 @@ namespace IWork.Migrations
                         new
                         {
                             Id = 6,
-                            CoverImage = "images/trip1.png",
+                            CoverImage = "images/fss-logo.png",
                             Description = "this is a dumb text description for development gangy",
                             Email = "society1@Gmail.com",
-                            Field = "Computer science",
+                            Field = "Education",
                             Image1 = "",
                             Image2 = "",
                             Name = "society number 6"
@@ -128,10 +131,10 @@ namespace IWork.Migrations
                         new
                         {
                             Id = 7,
-                            CoverImage = "images/trip2.png",
+                            CoverImage = "images/fss-logo.png",
                             Description = "this is a dumb text description for development gangy",
                             Email = "society1@Gmail.com",
-                            Field = "Medical",
+                            Field = "Education",
                             Image1 = "",
                             Image2 = "",
                             Name = "society number 7"
@@ -139,10 +142,10 @@ namespace IWork.Migrations
                         new
                         {
                             Id = 8,
-                            CoverImage = "images/trip2.png",
+                            CoverImage = "images/fss-logo.png",
                             Description = "this is a dumb text description for development gangy",
                             Email = "society1@Gmail.com",
-                            Field = "Medical",
+                            Field = "Education",
                             Image1 = "",
                             Image2 = "",
                             Name = "society number 8"
@@ -150,10 +153,10 @@ namespace IWork.Migrations
                         new
                         {
                             Id = 9,
-                            CoverImage = "images/trip2.png",
+                            CoverImage = "images/fss-logo.png",
                             Description = "this is a dumb text description for development gangy",
                             Email = "society1@Gmail.com",
-                            Field = "Medical",
+                            Field = "Education",
                             Image1 = "",
                             Image2 = "",
                             Name = "society number 9"

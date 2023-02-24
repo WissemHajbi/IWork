@@ -1,0 +1,55 @@
+@model List<EmployerModel>
+
+@{
+    ViewData["Title"] = "JobHunting Page";
+}
+
+<div class="btn-group row mb-4 row-cols-auto d-flex justify-content-center mt-5" role="group">
+
+	<input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" onclick="changeContent('Education')">
+  	<label class="btn btn-outline-secondary" for="btnradio1">Education</label>
+
+	<input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onclick="changeContent('Computer')">
+	<label class="btn btn-outline-success" for="btnradio2">Computer science</label>
+
+	<input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" onclick="changeContent('Medical')">
+	<label class="btn btn-outline-danger" for="btnradio3">Medical</label>
+
+
+	 @* <div class="col">
+		<a href="" type="submit" class="btn btn-outline-light" value="All" name="filter_button">Eductaion</a>
+	 </div>
+	 <div class="col">
+		<a href="" type="submit" class="btn btn-outline-light" value="All" name="filter_button">Computer science</a>
+	 </div>
+	 <div class="col">
+		<a href="" type="submit" class="btn btn-outline-light" value="All" name="filter_button">Medical</a>
+	 </div> *@
+</div>
+
+
+<div class="container">
+    <div class="row row-cols-3 mt-5">
+		@foreach (var emp in Model)
+		{
+			<div class="col d-flex justify-content-center">
+				<div class="card shadow-lg mb-5 rounded" style="width:21rem" id=@emp.Field>
+					<div class="row d-flex justify-content-center">
+									<img src="/@emp.CoverImage" class="card-img-top" style="height:280px;width:90%" />
+								</div>
+								<div class="card-body">
+									<div class="row row-cols-2">
+											<p class="card-text text-dark">@emp.Name</p>
+									</div>
+									<hr>
+									<samp>
+									<p class="card-text" style="font-size:14px;height:55px">@emp.Description
+									</p>
+									</samp>
+									<hr>
+								</div>
+							</div>			
+				</div>
+		}
+	</div>
+</div>

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IWork.Migrations
 {
     [DbContext(typeof(IWorkDbContext))]
-    [Migration("20230223140333_Initial")]
-    partial class Initial
+    [Migration("20230224104929_initial_new")]
+    partial class initial_new
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,10 @@ namespace IWork.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("CoverImage")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -40,6 +44,14 @@ namespace IWork.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Image1")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Image2")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -53,9 +65,12 @@ namespace IWork.Migrations
                         new
                         {
                             Id = 1,
+                            CoverImage = "imagesss-logo.png",
                             Description = "this is a dumb text description for development gangy",
                             Email = "society1@Gmail.com",
                             Field = "Education",
+                            Image1 = "",
+                            Image2 = "",
                             Name = "society number 1"
                         });
                 });

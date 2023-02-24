@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\fss-logo.png",
+      "PackagePath": "staticwebassets\\images\\fss-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\img-05.jpg",
+      "PackagePath": "staticwebassets\\images\\img-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\trip1.png",
+      "PackagePath": "staticwebassets\\images\\trip1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\trip2.png",
+      "PackagePath": "staticwebassets\\images\\trip2.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\trip3.png",
+      "PackagePath": "staticwebassets\\images\\trip3.png"
+    },
+    {
       "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

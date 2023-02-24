@@ -16,7 +16,12 @@ public class HomeController : Controller
         _logger = logger;
     }
     
-    public async Task<IActionResult> Index()
+    public IActionResult Index()
+    {
+        return View();
+    }
+
+    public async Task<IActionResult> JobHunting()
     {
         var Employers = await _context.Employers.ToListAsync();
         return View(Employers);
