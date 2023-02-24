@@ -5,7 +5,7 @@
 }
 
 <div class="btn-group row mb-4 row-cols-auto d-flex justify-content-center mt-5" role="group">
-
+@* 
 	<input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" onclick="changeContent('Education')">
   	<label class="btn btn-outline-secondary" for="btnradio1">Education</label>
 
@@ -13,18 +13,18 @@
 	<label class="btn btn-outline-success" for="btnradio2">Computer science</label>
 
 	<input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" onclick="changeContent('Medical')">
-	<label class="btn btn-outline-danger" for="btnradio3">Medical</label>
+	<label class="btn btn-outline-danger" for="btnradio3">Medical</label> *@
 
 
-	 @* <div class="col">
-		<a href="" type="submit" class="btn btn-outline-light" value="All" name="filter_button">Eductaion</a>
+	 <div class="col">
+		<button  type="submit" class="btn filterbtn btn-outline-secondary" value="All" name="EducationButton" onclick="changeContent('Education')" active>Eductaion</button>
 	 </div>
 	 <div class="col">
-		<a href="" type="submit" class="btn btn-outline-light" value="All" name="filter_button">Computer science</a>
+		<button  type="submit" class="btn filterbtn btn-outline-success" value="All" name="ComputerButton" onclick="changeContent('Computer')">Computer science</button>
 	 </div>
 	 <div class="col">
-		<a href="" type="submit" class="btn btn-outline-light" value="All" name="filter_button">Medical</a>
-	 </div> *@
+		<button  type="submit" class="btn filterbtn btn-outline-danger" value="All" name="MedicalButton" onclick="changeContent('Medical')">Medical</button>
+	 </div>
 </div>
 
 

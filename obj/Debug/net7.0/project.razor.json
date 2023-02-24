@@ -18678,6 +18678,11 @@
       "FilePath": "c:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\Views\\Home\\JobHunting.cshtml",
       "TargetPath": "Views\\Home\\JobHunting.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\Views\\Home\\Interv.cshtml",
+      "TargetPath": "Views\\Home\\Interv.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.3"
