@@ -3,6 +3,7 @@ using System;
 using IWork.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IWork.Migrations
 {
     [DbContext(typeof(IWorkDbContext))]
-    partial class IWorkDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230225085935_Change_employersmodel_and_new_applymodel")]
+    partial class Change_employersmodel_and_new_applymodel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.3");

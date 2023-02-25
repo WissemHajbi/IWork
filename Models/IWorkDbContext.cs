@@ -6,13 +6,13 @@ namespace IWork.Models {
      public class IWorkDbContext : DbContext {
         
         public DbSet<EmployerModel> Employers { get; set; }
+        public DbSet<ApplyModel> Applys {get; set; }
 
         public IWorkDbContext(DbContextOptions<IWorkDbContext> options ): base(options)
         {
             
         }
 
-        string imagePath = @"C:\Users\wisse\projects\asp.netWebsites\IWork\wwwroot\images\fss-logo.png";
         protected override void OnModelCreating(ModelBuilder mb){
             mb.Entity<EmployerModel>(entity => {
                 entity.HasKey(x => x.Id);
@@ -24,15 +24,19 @@ namespace IWork.Models {
                 entity.Property(x => x.CoverImage).IsRequired();
                 entity.Property(x => x.Image1);
                 entity.Property(x => x.Image2);
+                entity.Property(x => x.StartDate);
+                entity.Property(x => x.FPTime);
                 entity.HasData(new EmployerModel{
                     Id = 1,
                     Name = "society number 1",
                     Field = "Education",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
-                    CoverImage = "images/fss-logo.png",
-                    Image1 = "",
-                    Image2 = "",
+                    CoverImage = "/images/fss-logo.png",
+                    Image1 = "/images/fss1.png",
+                    Image2 = "/images/fss1.png",
+                    StartDate = new DateTime(),
+                    FPTime = "Full Time"
                 });
                 entity.HasData(new EmployerModel{
                     Id = 2,
@@ -40,9 +44,11 @@ namespace IWork.Models {
                     Field = "Education",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
-                    CoverImage = "images/fss-logo.png",
+                    CoverImage = "/images/fss-logo.png",
                     Image1 = "",
                     Image2 = "",
+                    StartDate = new DateTime(),
+                    FPTime = "Part Time"
                 });
                 entity.HasData(new EmployerModel{
                     Id = 3,
@@ -50,9 +56,11 @@ namespace IWork.Models {
                     Field = "Education",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
-                    CoverImage = "images/fss-logo.png",
+                    CoverImage = "/images/fss-logo.png",
                     Image1 = "",
                     Image2 = "",
+                    StartDate = new DateTime(),
+                    FPTime = "Full Time"
                 });
                 entity.HasData(new EmployerModel{
                     Id = 4,
@@ -60,9 +68,11 @@ namespace IWork.Models {
                     Field = "Computer science",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
-                    CoverImage = "images/trip1.png",
+                    CoverImage = "/images/trip1.png",
                     Image1 = "",
                     Image2 = "",
+                    StartDate = new DateTime(),
+                    FPTime = "Full Time"
                 });
                 entity.HasData(new EmployerModel{
                     Id = 5,
@@ -70,9 +80,11 @@ namespace IWork.Models {
                     Field = "Computer science",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
-                    CoverImage = "images/trip1.png",
+                    CoverImage = "/images/trip1.png",
                     Image1 = "",
                     Image2 = "",
+                    StartDate = new DateTime(),
+                    FPTime = "Full Time"
                 });
                 entity.HasData(new EmployerModel{
                     Id = 6,
@@ -80,9 +92,11 @@ namespace IWork.Models {
                     Field = "Computer science",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
-                    CoverImage = "images/trip1.png",
+                    CoverImage = "/images/trip1.png",
                     Image1 = "",
                     Image2 = "",
+                    StartDate = new DateTime(),
+                    FPTime = "Full Time"
                 });
                 entity.HasData(new EmployerModel{
                     Id = 7,
@@ -90,9 +104,11 @@ namespace IWork.Models {
                     Field = "Medical",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
-                    CoverImage = "images/trip2.png",
+                    CoverImage = "/images/trip2.png",
                     Image1 = "",
                     Image2 = "",
+                    StartDate = new DateTime(),
+                    FPTime = "Full Time"
                 });
                 entity.HasData(new EmployerModel{
                     Id = 8,
@@ -100,9 +116,11 @@ namespace IWork.Models {
                     Field = "Medical",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
-                    CoverImage = "images/trip2.png",
+                    CoverImage = "/images/trip2.png",
                     Image1 = "",
                     Image2 = "",
+                    StartDate = new DateTime(),
+                    FPTime = "Full Time"
                 });
                 entity.HasData(new EmployerModel{
                     Id = 9,
@@ -110,11 +128,24 @@ namespace IWork.Models {
                     Field = "Medical",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
-                    CoverImage = "images/trip2.png",
+                    CoverImage = "/images/trip2.png",
                     Image1 = "",
                     Image2 = "",
+                    StartDate = new DateTime(),
+                    FPTime = "Full Time"
                 });
             });
+
+            mb.Entity<ApplyModel>(entity => {
+                entity.HasKey(x => x.Id);
+                entity.Property(x => x.Name).HasMaxLength(200).IsRequired();
+                entity.Property(x => x.Prename).HasMaxLength(200).IsRequired();
+                entity.Property(x => x.Email).HasMaxLength(250);
+                entity.Property(x => x.Experience).HasMaxLength(250);
+                entity.Property(x => x.Description).HasMaxLength(2000).IsRequired();
+                entity.Property(x => x.StartDate);  
+            });
         }
+
      }
 }

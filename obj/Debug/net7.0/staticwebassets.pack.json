@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\images\\fss-logo.png"
     },
     {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\fss1.png",
+      "PackagePath": "staticwebassets\\images\\fss1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\fss2.png",
+      "PackagePath": "staticwebassets\\images\\fss2.png"
+    },
+    {
       "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\img-05.jpg",
       "PackagePath": "staticwebassets\\images\\img-05.jpg"
     },

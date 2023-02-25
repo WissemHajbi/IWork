@@ -27,6 +27,32 @@ public class HomeController : Controller
         return View(Employers);
     }
 
+    public async Task<IActionResult> JobOffer(int id)
+    {
+        var Employer = await _context.Employers.FirstOrDefaultAsync(x => x.Id == id);
+        return View(Employer);
+    }
+
+    public IActionResult JobApplyForm()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> JobApplyForm([Bind("Name,Prename,Email,Experience,Description,StartDate")] ApplyModel am)
+    {
+        if (ModelState.IsValid)
+        {
+            am.StartDate = DateTime.Today;
+
+            await _context.Applys.AddAsync(am);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(JobHunting));
+        }
+        
+        return View(am);
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

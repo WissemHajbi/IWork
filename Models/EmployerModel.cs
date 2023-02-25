@@ -10,5 +10,7 @@ namespace IWork.Models {
         public string CoverImage { get; set; }
         public string Image1 { get; set; }
         public string Image2 { get; set; }
+        public DateTime StartDate { get; set; }
+        public string FPTime { get; set; }
     }
 }

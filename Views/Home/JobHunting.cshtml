@@ -33,22 +33,23 @@
 		@foreach (var emp in Model)
 		{
 			<div class="col d-flex justify-content-center">
-				<div class="card shadow-lg mb-5 rounded" style="width:21rem" id=@emp.Field>
-					<div class="row d-flex justify-content-center">
-									<img src="/@emp.CoverImage" class="card-img-top" style="height:280px;width:90%" />
-								</div>
-								<div class="card-body">
-									<div class="row row-cols-2">
-											<p class="card-text text-dark">@emp.Name</p>
+				<a asp-controller="Home" asp-action="JobOffer" asp-route-id="@emp.Id" class="text-decoration-none">
+					<div class="card shadow-lg mb-5 rounded" style="width:21rem" id=@emp.Field>
+						<div class="row d-flex justify-content-center text-decorations-none">
+										<img src="@emp.CoverImage" class="card-img-top" style="height:280px;width:90%" />
 									</div>
-									<hr>
-									<samp>
-									<p class="card-text" style="font-size:14px;height:55px">@emp.Description
-									</p>
-									</samp>
-									<hr>
-								</div>
-							</div>			
+									<div class="card-body">
+											<div class="row row-cols-2">
+												<p class="card-text text-dark">@emp.Name</p>
+											</div>
+										<hr>
+											<samp>
+												<p class="card-text text-dark" style="font-size:14px;height:55px ">@emp.Description</p>
+											</samp>
+										<hr>
+									</div>
+								</div>			
+                </a>
 				</div>
 		}
 	</div>

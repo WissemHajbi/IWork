@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+7ZQmgK4es2jAUWbePcQx53Ux44CGoBpaEdTx1Up60Q=",
+  "Hash": "5E8kXCOFX4sgxARKKHPrHx/GLLMzb+Lge3oP4QXUsGQ=",
   "Source": "IWork",
   "BasePath": "_content/IWork",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\fss-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\fss1.png",
+      "SourceId": "IWork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\",
+      "BasePath": "_content/IWork",
+      "RelativePath": "images/fss1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fss1.png"
+    },
+    {
+      "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\fss2.png",
+      "SourceId": "IWork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\",
+      "BasePath": "_content/IWork",
+      "RelativePath": "images/fss2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fss2.png"
     },
     {
       "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\img-05.jpg",
