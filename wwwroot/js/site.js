@@ -66,3 +66,10 @@ for (var i = 0; i < desc.textContent.length; i++) {
     if (desc.textContent[i] === ":") {
     }
 }
+
+// preventing carousel auto swiping
+$(document).ready(function () {
+    $(".carousel").carousel({
+        interval: false,
+    });
+});

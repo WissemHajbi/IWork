@@ -26,7 +26,13 @@ public class HomeController : Controller
         var Employers = await _context.Employers.ToListAsync();
         return View(Employers);
     }
+    
+    public async Task<IActionResult> Interv()
+    {
+        return View();
+    }
 
+    [HttpGet]
     public async Task<IActionResult> JobOffer(int id)
     {
         var Employer = await _context.Employers.FirstOrDefaultAsync(x => x.Id == id);

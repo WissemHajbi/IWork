@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5E8kXCOFX4sgxARKKHPrHx/GLLMzb+Lge3oP4QXUsGQ=",
+  "Hash": "5Sm1+64Nke32bANjJzTAC+5TJe1QPo00SH8Wv2fuREE=",
   "Source": "IWork",
   "BasePath": "_content/IWork",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\img-05.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\infographic.png",
+      "SourceId": "IWork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\",
+      "BasePath": "_content/IWork",
+      "RelativePath": "images/infographic.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\infographic.png"
     },
     {
       "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\trip1.png",
@@ -1188,6 +1205,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\videos\\JobInterview.mp4",
+      "SourceId": "IWork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\",
+      "BasePath": "_content/IWork",
+      "RelativePath": "videos/JobInterview.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\JobInterview.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\videos\\TopInterviewTips.mp4",
+      "SourceId": "IWork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\",
+      "BasePath": "_content/IWork",
+      "RelativePath": "videos/TopInterviewTips.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\TopInterviewTips.mp4"
     }
   ]
 }

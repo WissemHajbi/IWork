@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\images\\img-05.jpg"
     },
     {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\infographic.png",
+      "PackagePath": "staticwebassets\\images\\infographic.png"
+    },
+    {
       "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\trip1.png",
       "PackagePath": "staticwebassets\\images\\trip1.png"
     },
@@ -271,6 +275,14 @@
     {
       "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\videos\\JobInterview.mp4",
+      "PackagePath": "staticwebassets\\videos\\JobInterview.mp4"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\videos\\TopInterviewTips.mp4",
+      "PackagePath": "staticwebassets\\videos\\TopInterviewTips.mp4"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.IWork.Microsoft.AspNetCore.StaticWebAssets.props",
