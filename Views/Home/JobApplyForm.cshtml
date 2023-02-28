@@ -5,38 +5,35 @@
 }
 <div class="container mt-5">
 
-    <div class="row text">
-        <div class="col-md-8 offset-2 shadow-lg p-3 mb-5 bg-body rounded">
-            <div class="d-flex justify-content-center text-secondary">
-                <h1>ADD</h1>
-            </div>
+    <div class="row text font-monospace text-dark text-start">
+        <div class="col-md-8 offset-2 shadow-lg p-3 mb-5 rounded">
             <div class="row">
                 <div class="col-md-8 offset-2">
                     <form asp-action="JobApplyForm">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                         <div class="form-group mb-2">
-                            <label asp-for="Name" class="control-label text-secondary m-2"></label>
+                            <label asp-for="Name" class="control-label m-2"></label>
                             <input asp-for="Name" class="form-control" />
                             <span asp-validation-for="Name" class="text-danger"></span>
                         </div>
                         <div class="form-group mb-2">
-                            <label asp-for="Prename" class="control-label text-secondary m-2"></label>
+                            <label asp-for="Prename" class="control-label m-2"></label>
                             <input asp-for="Prename" class="form-control" />
                             <span asp-validation-for="Prename" class="text-danger"></span>
                         </div>
                         <div class="form-group mb-2">
-                            <label asp-for="Email" class="control-label text-secondary m-2"></label>
+                            <label asp-for="Email" class="control-label m-2"></label>
                             <input asp-for="Email" class="form-control" />
                             <span asp-validation-for="Email" class="text-danger"></span>
                         </div>
                         <div class="form-group mb-2">
-                            <label asp-for="Description" class="control-label text-secondary m-2"></label>
+                            <label asp-for="Description" class="control-label m-2"></label>
                             <input asp-for="Description" class="form-control" />
                             <span asp-validation-for="Description" class="text-danger"></span>
                         </div>
                         <div class="form-group mb-4">
-                            <label asp-for="Experience" class="control-label text-secondary m-2"></label>
+                            <label asp-for="Experience" class="control-label m-2"></label>
                             <input asp-for="Experience" class="form-control" />
                             <span asp-validation-for="Experience" class="text-danger"></span>
                         </div>

@@ -2,44 +2,41 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="background-image-container white-text-container" style="background-image: url('images/img-05.jpg')">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
+<div class="white-text-container" >
+        <div class="container " style="padding:5%">
+            <div class="row mt-4">
                 <div class="col-xs-12">
                     <h1 class="fs-1 header">IWork Association</h1>
-                    <p class="fs-4  text">THE BEST PLACE TO FIND YOUR JOB</p>
+                    <p class="fs-4 text">THE BEST PLACE TO FIND YOUR JOB</p>
                 </div>
             </div>
+			<section class="container">
+				<div class="row-items">
+					<div class="container-box">
+						<div class="container-img">
+							<img src="images/trip1.png">
+						</div>
+						<h4>Interview preparation</h4>
+						<p class="text-muted" style="font-size:15px">Preparing for Success</p>
+					</div>
+					<a asp-controller="Home" asp-action="JobHunting" class="text-decoration-none text-dark">
+						<div class="container-box">
+							<div class="container-img">
+								<img src="images/trip3.png">
+							</div>
+							<h4>Job hunting</h4>
+							<p class="text-muted" style="font-size:15px">seeking employment opportunities</p>
+						</div>
+					</a>
+					<div class="container-box">
+						<div class="container-img">
+							<img src="images/trip2.png">
+						</div>
+						<h4>Career advancement</h4>
+						<p class="text-muted" style="font-size:15px">Career Growth Accelerator</p>
+					</div>
+				</div>
+			</section>
+
         </div>
     </div>
-
-<div class="container">
-    <section class="container">
-		<div class="row-items">
-			<div class="container-box">
-				<div class="container-img">
-					<img src="images/trip1.png">
-				</div>
-				<h4>Interview preparation</h4>
-				<p>150 Properties</p>
-			</div>
-			<a asp-controller="Home" asp-action="JobHunting" class="text-decoration-none text-dark">
-				<div class="container-box">
-					<div class="container-img">
-						<img src="images/trip3.png">
-					</div>
-					<h4>Job hunting</h4>
-					<p>150 Properties</p>
-				</div>
-			</a>
-			<div class="container-box">
-				<div class="container-img">
-					<img src="images/trip2.png">
-				</div>
-				<h4>Career advancement</h4>
-				<p>150 Properties</p>
-			</div>
-		</div>
-	</section>
-</div>

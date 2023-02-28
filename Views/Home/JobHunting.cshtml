@@ -15,42 +15,50 @@
 	<input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" onclick="changeContent('Medical')">
 	<label class="btn btn-outline-danger" for="btnradio3">Medical</label> *@
 
-
-	 <div class="col">
-		<button  type="submit" class="btn filterbtn btn-outline-secondary" value="All" name="EducationButton" onclick="changeContent('Education')" active>Eductaion</button>
-	 </div>
-	 <div class="col">
-		<button  type="submit" class="btn filterbtn btn-outline-success" value="All" name="ComputerButton" onclick="changeContent('Computer')">Computer science</button>
-	 </div>
-	 <div class="col">
-		<button  type="submit" class="btn filterbtn btn-outline-danger" value="All" name="MedicalButton" onclick="changeContent('Medical')">Medical</button>
-	 </div>
+	<div class="col">
+		<button  type="submit" class="btn filterbtn btn-outline-danger" value="EducationButton" name="EducationButton" onclick="changeContent('Education')">Eductaion</button>
+	</div>
+	<div class="col">
+		<button  type="submit" class="btn filterbtn btn-outline-primary" value="ComputerButton" name="ComputerButton" onclick="changeContent('Computer')">Computer science</button>
+	</div>
+	<div class="col ms-5 me-5">
+		<button  type="submit" class="btn filterbtn btn-outline-secondary active" value="All" name="AllButton" onclick="changeContent('All')" >All</button>
+	</div>
+	<div class="col">
+		<button  type="submit" class="btn filterbtn btn-outline-success" value="MedicalButton" name="MedicalButton" onclick="changeContent('Medical')">Medical</button>
+	</div>
 </div>
 
 
 <div class="container">
-    <div class="row row-cols-3 mt-5">
+    <div class="row row-cols-4 mt-5" id="container">
 		@foreach (var emp in Model)
 		{
-			<div class="col d-flex justify-content-center">
+			<div class="col d-flex justify-content-center" style=" display: none">
 				<a asp-controller="Home" asp-action="JobOffer" asp-route-id="@emp.Id" class="text-decoration-none">
-					<div class="card shadow-lg mb-5 rounded" style="width:21rem" id=@emp.Field>
+					<div class="card shadow-lg mb-5 rounded offer-box" style="width:19rem" id=@emp.Field>
 						<div class="row d-flex justify-content-center text-decorations-none">
-										<img src="@emp.CoverImage" class="card-img-top" style="height:280px;width:90%" />
-									</div>
-									<div class="card-body">
-											<div class="row row-cols-2">
-												<p class="card-text text-dark">@emp.Name</p>
-											</div>
-										<hr>
-											<samp>
-												<p class="card-text text-dark" style="font-size:14px;height:55px ">@emp.Description</p>
-											</samp>
-										<hr>
-									</div>
-								</div>			
-                </a>
-				</div>
+							<img src="@emp.CoverImage" class="card-img-top" style="height:250px;width:90%" />
+						</div>
+						    <div class="card-body">
+							<div class="row">
+								<p class="card-text text-dark fw-semibold">@emp.Name</p>
+							</div>
+							<div class="row">
+								<p class="card-text text-secondary badge">@emp.Field</p>
+							</div>
+							<hr class="text-dark">
+							<div class="row">
+								<p class="card-text text-muted badge mb-1" style="font-size:10px">@emp.StartDate</p>
+							</div>
+							<samp>
+								<p class="card-text text-secondary OffersCardDesc" style="font-size:13.5px;height:55px">@emp.Description</p>
+							</samp>
+							<hr class="text-secondary">
+						</div>
+					</div>			
+        	    </a>
+			</div>
 		}
 	</div>
 </div>

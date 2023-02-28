@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-
 :root {
   --bg-color: #ffff;
   --text-color: #221314;
@@ -14,12 +11,10 @@
 
 .header {
   color: white;
-  font-family: 'Anton', sans-serif;
 }
 
 .text {
   color: white;
-  font-family: 'Tilt Neon', cursive;
 }
 
 @media (min-width:992px) {
@@ -37,16 +32,14 @@
 }
 
 .background-image-container {
-  position: relative;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  padding: 12% 0
 }
 
 .overlay {
-  background-color: hsla(0, 0%, 100%, .2);
+  background-color: hsla(0, 100%, 100%, .2);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -54,19 +47,9 @@
   right: 0
 }
 
-
-
-
-
-
-
-
-
-
-
 .row-items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   grid-gap: 5rem;
   align-items: center;
   text-align: center;
@@ -95,8 +78,16 @@
 
 .container-box:hover {
   box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-  border: 1px solid transparent;
+  border: 12px solid transparent;
   transform: translateY(-3px);
+}
+
+.offer-box:hover {
+  transition: all 1s ease 0s;
+  cursor: pointer;
+  box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+  border: 1px solid gray;
+  transform: translateY(-15px);
 }
 
 .container-img img {
