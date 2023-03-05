@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+.sHeader {
+  font-family: 'Tilt Warp', cursive;
+}
+
 :root {
   --bg-color: #ffff;
   --text-color: #221314;
@@ -11,10 +17,12 @@
 
 .header {
   color: white;
+  font-family: 'Tilt Warp', cursive;
 }
 
 .text {
   color: white;
+  font-family: 'Tilt Warp', cursive;
 }
 
 @media (min-width:992px) {

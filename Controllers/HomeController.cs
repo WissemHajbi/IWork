@@ -10,12 +10,12 @@ public class HomeController : Controller
     private readonly IWorkDbContext _context;
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger,IWorkDbContext wc)
+    public HomeController(ILogger<HomeController> logger, IWorkDbContext wc)
     {
         _context = wc;
         _logger = logger;
     }
-    
+
     public IActionResult Index()
     {
         return View();
@@ -26,7 +26,7 @@ public class HomeController : Controller
         var Employers = await _context.Employers.ToListAsync();
         return View(Employers);
     }
-    
+
     public async Task<IActionResult> Interv()
     {
         return View();
@@ -39,9 +39,13 @@ public class HomeController : Controller
         return View(Employer);
     }
 
-    public IActionResult JobApplyForm()
+    public IActionResult JobApplyForm(int id)
     {
-        return View();
+        var a = new ApplyModel()
+        {
+            JobId = id
+        };
+        return View(a);
     }
 
     [HttpPost]
@@ -56,7 +60,7 @@ public class HomeController : Controller
 
             return RedirectToAction(nameof(JobHunting));
         }
-        
+
         return View(am);
     }
 

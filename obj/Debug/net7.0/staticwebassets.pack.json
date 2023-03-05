@@ -17,6 +17,98 @@
       "PackagePath": "staticwebassets\\images\\Cv.png"
     },
     {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Edu1cover.png",
+      "PackagePath": "staticwebassets\\images\\Edu1cover.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Edu1img1.png",
+      "PackagePath": "staticwebassets\\images\\Edu1img1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Edu1img2.png",
+      "PackagePath": "staticwebassets\\images\\Edu1img2.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Edu2cover.png",
+      "PackagePath": "staticwebassets\\images\\Edu2cover.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Edu2img1.png",
+      "PackagePath": "staticwebassets\\images\\Edu2img1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Edu2img2.png",
+      "PackagePath": "staticwebassets\\images\\Edu2img2.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Edu3cover.png",
+      "PackagePath": "staticwebassets\\images\\Edu3cover.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Edu3img1.png",
+      "PackagePath": "staticwebassets\\images\\Edu3img1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Edu3img2.png",
+      "PackagePath": "staticwebassets\\images\\Edu3img2.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Enter1cover.png",
+      "PackagePath": "staticwebassets\\images\\Enter1cover.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Enter1img1.png",
+      "PackagePath": "staticwebassets\\images\\Enter1img1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Enter1img2.png",
+      "PackagePath": "staticwebassets\\images\\Enter1img2.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Enter2cover.png",
+      "PackagePath": "staticwebassets\\images\\Enter2cover.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Enter2img1.png",
+      "PackagePath": "staticwebassets\\images\\Enter2img1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Health1cover.png",
+      "PackagePath": "staticwebassets\\images\\Health1cover.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Health1img1.png",
+      "PackagePath": "staticwebassets\\images\\Health1img1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Health1img2.png",
+      "PackagePath": "staticwebassets\\images\\Health1img2.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Health2cover.png",
+      "PackagePath": "staticwebassets\\images\\Health2cover.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Health2img1.png",
+      "PackagePath": "staticwebassets\\images\\Health2img1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Health2img2.png",
+      "PackagePath": "staticwebassets\\images\\Health2img2.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Health3cover.png",
+      "PackagePath": "staticwebassets\\images\\Health3cover.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Health3img1.png",
+      "PackagePath": "staticwebassets\\images\\Health3img1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Health3img2.png",
+      "PackagePath": "staticwebassets\\images\\Health3img2.png"
+    },
+    {
       "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech1cover.png",
       "PackagePath": "staticwebassets\\images\\Tech1cover.png"
     },
@@ -27,6 +119,30 @@
     {
       "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech1img2.png",
       "PackagePath": "staticwebassets\\images\\Tech1img2.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech2cover.png",
+      "PackagePath": "staticwebassets\\images\\Tech2cover.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech2img1.png",
+      "PackagePath": "staticwebassets\\images\\Tech2img1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech2img2.png",
+      "PackagePath": "staticwebassets\\images\\Tech2img2.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech3cover.png",
+      "PackagePath": "staticwebassets\\images\\Tech3cover.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech3img1.png",
+      "PackagePath": "staticwebassets\\images\\Tech3img1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech3img2.png",
+      "PackagePath": "staticwebassets\\images\\Tech3img2.png"
     },
     {
       "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\fss-logo.png",

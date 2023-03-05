@@ -3,6 +3,7 @@ using System;
 using IWork.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,25 +11,22 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IWork.Migrations
 {
     [DbContext(typeof(IWorkDbContext))]
-    partial class IWorkDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230305160539_JobId_ApplyModel")]
+    partial class JobId_ApplyModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.3");
 
             modelBuilder.Entity("IWork.Models.ApplyModel", b =>
                 {
-                    b.Property<int>("JobId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Adresse")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Education")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(2000)
                         .HasColumnType("TEXT");
@@ -43,7 +41,7 @@ namespace IWork.Migrations
                         .HasMaxLength(250)
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Id")
+                    b.Property<int>("JobId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
@@ -59,7 +57,7 @@ namespace IWork.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("JobId");
+                    b.HasKey("Id");
 
                     b.ToTable("Applys");
                 });

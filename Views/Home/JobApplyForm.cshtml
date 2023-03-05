@@ -12,6 +12,13 @@
                     <form asp-action="JobApplyForm">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
+                        <p class="text-center mt-3" style="font-size:15px">Personal Information</p>
+                        <hr>
+
+                        <div class="form-group mb-2 "hidden>
+                            <label asp-for="JobId" class="control-label m-2"></label>
+                            <input asp-for="JobId" class="form-control" value=@Model.JobId/>
+                        </div>
                         <div class="form-group mb-2">
                             <label asp-for="Name" class="control-label m-2"></label>
                             <input asp-for="Name" class="form-control" />
@@ -23,18 +30,27 @@
                             <span asp-validation-for="Prename" class="text-danger"></span>
                         </div>
                         <div class="form-group mb-2">
+                            <label asp-for="Adresse" class="control-label m-2"></label>
+                            <input asp-for="Adresse" class="form-control" />
+                            <span asp-validation-for="Adresse" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-2">
                             <label asp-for="Email" class="control-label m-2"></label>
                             <input asp-for="Email" class="form-control" />
                             <span asp-validation-for="Email" class="text-danger"></span>
                         </div>
+
+                        <p class="text-center mt-5" style="font-size:15px">Qualifications</p>
+                        <hr>
+
                         <div class="form-group mb-2">
-                            <label asp-for="Description" class="control-label m-2"></label>
-                            <input asp-for="Description" class="form-control" />
-                            <span asp-validation-for="Description" class="text-danger"></span>
+                            <label asp-for="Education" class="control-label m-2"></label>
+                            <textarea asp-for="Education" class="form-control" style="height:100px"></textarea>
+                            <span asp-validation-for="Education" class="text-danger"></span>
                         </div>
                         <div class="form-group mb-4">
                             <label asp-for="Experience" class="control-label m-2"></label>
-                            <input asp-for="Experience" class="form-control" />
+                            <textarea asp-for="Experience" class="form-control" style="height:100px"></textarea>
                             <span asp-validation-for="Experience" class="text-danger"></span>
                         </div>
 
