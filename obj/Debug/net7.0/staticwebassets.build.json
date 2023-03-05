@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5Sm1+64Nke32bANjJzTAC+5TJe1QPo00SH8Wv2fuREE=",
+  "Hash": "Pne1euUcVnRGZoBklFHQaxPf2HquO7TkzBKH3Pv2X78=",
   "Source": "IWork",
   "BasePath": "_content/IWork",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Cv.png",
+      "SourceId": "IWork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\",
+      "BasePath": "_content/IWork",
+      "RelativePath": "images/Cv.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Cv.png"
+    },
+    {
       "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\fss-logo.png",
       "SourceId": "IWork",
       "SourceType": "Discovered",
@@ -153,12 +170,12 @@
       "OriginalItemSpec": "wwwroot\\images\\img-05.jpg"
     },
     {
-      "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\infographic.png",
+      "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech1cover.png",
       "SourceId": "IWork",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\",
       "BasePath": "_content/IWork",
-      "RelativePath": "images/infographic.png",
+      "RelativePath": "images/Tech1cover.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,7 +184,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\infographic.png"
+      "OriginalItemSpec": "wwwroot\\images\\Tech1cover.png"
+    },
+    {
+      "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech1img1.png",
+      "SourceId": "IWork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\",
+      "BasePath": "_content/IWork",
+      "RelativePath": "images/Tech1img1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Tech1img1.png"
+    },
+    {
+      "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech1img2.png",
+      "SourceId": "IWork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\",
+      "BasePath": "_content/IWork",
+      "RelativePath": "images/Tech1img2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Tech1img2.png"
     },
     {
       "Identity": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\trip1.png",

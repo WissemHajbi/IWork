@@ -4,18 +4,28 @@
     ViewData["Title"] = "JobHunting Page";
 }
 
-<div class="btn-group row mb-4 row-cols-auto d-flex justify-content-center mt-5" role="group">
-	<div class="col">
-		<button  type="submit" class="btn filterbtn btn-outline-danger" value="EducationButton" name="EducationButton" onclick="changeContent('Education')">Eductaion</button>
+<div class=" container mb-5 row-cols-auto d-grid justify-content-center mt-5">
+	<div class="row">
+		<div class="col ms-5 me-5 mb-4">
+			<button  type="submit" class="btn filterbtn btn-outline-dark active" value="All" name="AllButton" onclick="changeContent('All')" >All</button>
+		</div>
 	</div>
-	<div class="col">
-		<button  type="submit" class="btn filterbtn btn-outline-primary" value="ComputerButton" name="ComputerButton" onclick="changeContent('Computer')">Computer science</button>
-	</div>
-	<div class="col ms-5 me-5">
-		<button  type="submit" class="btn filterbtn btn-outline-secondary active" value="All" name="AllButton" onclick="changeContent('All')" >All</button>
-	</div>
-	<div class="col">
-		<button  type="submit" class="btn filterbtn btn-outline-success" value="MedicalButton" name="MedicalButton" onclick="changeContent('Medical')">Medical</button>
+	<div class="row">
+		<div class="col">
+			<button  type="submit" class="btn filterbtn btn-outline-secondary" value="EducationButton" name="EducationButton" onclick="changeContent('Education')">Education</button>
+		</div>
+		<div class="col">
+			<button  type="submit" class="btn filterbtn btn-outline-secondary" value="TechnologyButton" name="TechnologyButton" onclick="changeContent('Technology')">Technology</button>
+		</div>
+		<div class="col">
+			<button  type="submit" class="btn filterbtn btn-outline-secondary" value="HealthcareButton" name="HealthcareButton" onclick="changeContent('Healthcare')">Healthcare</button>
+		</div>
+		<div class="col">
+			<button  type="submit" class="btn filterbtn btn-outline-secondary" value="FinanceButton" name="FinanceButton" onclick="changeContent('Finance')">Finance</button>
+		</div>
+		<div class="col">
+			<button  type="submit" class="btn filterbtn btn-outline-secondary" value="EntertainmentButton" name="EntertainmentButton" onclick="changeContent('Entertainment')">Entertainment</button>
+		</div>
 	</div>
 </div>
 
@@ -27,7 +37,7 @@
 			<div class="col d-flex justify-content-center" style=" display: none">
 				<a asp-controller="Home" asp-action="JobOffer" asp-route-id="@emp.Id" class="text-decoration-none">
 					<div class="card shadow-lg mb-5 rounded offer-box" style="width:19rem" id=@emp.Field>
-						<div class="row d-flex justify-content-center text-decorations-none">
+						<div class="row d-flex justify-content-center text-decorations-none p-4">
 							<img src="@emp.CoverImage" class="card-img-top" style="height:250px;width:90%" />
 						</div>
 						    <div class="card-body">

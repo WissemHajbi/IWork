@@ -39,37 +39,25 @@ function changeContent(FieldName) {
 // description trim
 var offers_card_desc = document.querySelectorAll(".OffersCardDesc");
 offers_card_desc.forEach((el) => {
-    if (el.textContent.length > 35) {
-        el.textContent = el.textContent.slice(0, 35) + "...";
+    if (el.textContent.length > 80) {
+        el.textContent = el.textContent.slice(0, 80) + "...";
     }
 });
 
 // job offer description format
-var desc = document.querySelector(".nbtext");
-var t = desc.textContent;
-var start = 0;
-var counter = 1;
-var tab = t.split(":");
-tab.forEach((e) => {
-    console.log(e);
-    const lineBreak = document.createElement("br");
-    if (counter++ == 1) {
-        desc.textContent = e + " : ";
-    } else {
-        desc.innerHTML += e + " : ";
-    }
-    desc.appendChild(lineBreak);
-    desc.innerHTML += e;
-});
-
-for (var i = 0; i < desc.textContent.length; i++) {
-    if (desc.textContent[i] === ":") {
-    }
-}
-
-// preventing carousel auto swiping
-$(document).ready(function () {
-    $(".carousel").carousel({
-        interval: false,
-    });
-});
+// var desc = document.querySelector(".nbtext");
+// var t = desc.textContent;
+// var start = 0;
+// var counter = 1;
+// var tab = t.split(":");
+// tab.forEach((e) => {
+//     console.log(e);
+//     const lineBreak = document.createElement("br");
+//     if (counter++ == 1) {
+//         desc.textContent = e + " : ";
+//     } else {
+//         desc.innerHTML += e + " : ";
+//     }
+//     desc.appendChild(lineBreak);
+//     desc.innerHTML += e;
+// });

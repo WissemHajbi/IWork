@@ -93,7 +93,7 @@ namespace IWork.Models
                 {
                     Id = 4,
                     Name = "society number 4",
-                    Field = "Computer science",
+                    Field = "Technology",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
                     CoverImage = "/images/trip1.png",
@@ -106,7 +106,7 @@ namespace IWork.Models
                 {
                     Id = 5,
                     Name = "society number 5",
-                    Field = "Computer science",
+                    Field = "Technology",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
                     CoverImage = "/images/trip1.png",
@@ -119,7 +119,7 @@ namespace IWork.Models
                 {
                     Id = 6,
                     Name = "society number 6",
-                    Field = "Computer science",
+                    Field = "Technology",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
                     CoverImage = "/images/trip1.png",
@@ -132,7 +132,7 @@ namespace IWork.Models
                 {
                     Id = 7,
                     Name = "society number 7",
-                    Field = "Medical",
+                    Field = "Healthcare",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
                     CoverImage = "/images/trip2.png",
@@ -145,7 +145,7 @@ namespace IWork.Models
                 {
                     Id = 8,
                     Name = "society number 8",
-                    Field = "Medical",
+                    Field = "Healthcare",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
                     CoverImage = "/images/trip2.png",
@@ -158,7 +158,7 @@ namespace IWork.Models
                 {
                     Id = 9,
                     Name = "society number 9",
-                    Field = "Medical",
+                    Field = "Healthcare",
                     Description = "this is a dumb text description for development gangy",
                     Email = "society1@Gmail.com",
                     CoverImage = "/images/trip2.png",

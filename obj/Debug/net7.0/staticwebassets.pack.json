@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Cv.png",
+      "PackagePath": "staticwebassets\\images\\Cv.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech1cover.png",
+      "PackagePath": "staticwebassets\\images\\Tech1cover.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech1img1.png",
+      "PackagePath": "staticwebassets\\images\\Tech1img1.png"
+    },
+    {
+      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\Tech1img2.png",
+      "PackagePath": "staticwebassets\\images\\Tech1img2.png"
+    },
+    {
       "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\fss-logo.png",
       "PackagePath": "staticwebassets\\images\\fss-logo.png"
     },
@@ -27,10 +43,6 @@
     {
       "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\img-05.jpg",
       "PackagePath": "staticwebassets\\images\\img-05.jpg"
-    },
-    {
-      "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\infographic.png",
-      "PackagePath": "staticwebassets\\images\\infographic.png"
     },
     {
       "Id": "C:\\Users\\wisse\\projects\\asp.netWebsites\\IWork\\wwwroot\\images\\trip1.png",

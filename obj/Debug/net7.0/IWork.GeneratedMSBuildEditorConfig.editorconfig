@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IWork
 build_property.RootNamespace = IWork
-build_property.ProjectDir = C:\Users\wisse\projects\asp.netWebsites\IWork\
+build_property.ProjectDir = c:\Users\wisse\projects\asp.netWebsites\IWork\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\wisse\projects\asp.netWebsites\IWork
+build_property.MSBuildProjectDirectory = c:\Users\wisse\projects\asp.netWebsites\IWork
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/wisse/projects/asp.netWebsites/IWork/Views/Home/Index.cshtml]
+[c:/Users/wisse/projects/asp.netWebsites/IWork/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wisse/projects/asp.netWebsites/IWork/Views/Home/Interv.cshtml]
+[c:/Users/wisse/projects/asp.netWebsites/IWork/Views/Home/Interv.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnRlcnYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wisse/projects/asp.netWebsites/IWork/Views/Home/JobApplyForm.cshtml]
+[c:/Users/wisse/projects/asp.netWebsites/IWork/Views/Home/JobApplyForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKb2JBcHBseUZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wisse/projects/asp.netWebsites/IWork/Views/Home/JobHunting.cshtml]
+[c:/Users/wisse/projects/asp.netWebsites/IWork/Views/Home/JobHunting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKb2JIdW50aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wisse/projects/asp.netWebsites/IWork/Views/Home/JobOffer.cshtml]
+[c:/Users/wisse/projects/asp.netWebsites/IWork/Views/Home/JobOffer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKb2JPZmZlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wisse/projects/asp.netWebsites/IWork/Views/Shared/Error.cshtml]
+[c:/Users/wisse/projects/asp.netWebsites/IWork/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wisse/projects/asp.netWebsites/IWork/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/wisse/projects/asp.netWebsites/IWork/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wisse/projects/asp.netWebsites/IWork/Views/_ViewImports.cshtml]
+[c:/Users/wisse/projects/asp.netWebsites/IWork/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wisse/projects/asp.netWebsites/IWork/Views/_ViewStart.cshtml]
+[c:/Users/wisse/projects/asp.netWebsites/IWork/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wisse/projects/asp.netWebsites/IWork/Views/Shared/_Layout.cshtml]
+[c:/Users/wisse/projects/asp.netWebsites/IWork/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xyw53fy2t0
