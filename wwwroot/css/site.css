@@ -18,6 +18,19 @@
 .header {
   color: white;
   font-family: 'Tilt Warp', cursive;
+  font-size: 60px;
+}
+
+.ml13 {
+  font-size: 1.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.ml13 .letter {
+  display: inline-block;
+  line-height: 1em;
 }
 
 .text {
